@@ -26,7 +26,6 @@ function fibonacci($number){
  		}
  		td,th{
  			border: none;
- 			margin:;
  		}
  		tr:nth-child(odd){
  			background-color: #D3D3D3;

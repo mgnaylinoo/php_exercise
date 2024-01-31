@@ -1,10 +1,9 @@
-<?php 
-	echo "
-		<form action='welcome.php' method='POST'>
-			Enter your name:
-			<input type='text' name='name'>
+<html>
+<body>
+		<form action='fileupload.php' method='post'enctype='multipart/form-data'>
+			Select your file:
+			<input type='file' name='file' >
 			<input type='submit'>
 		</form>
-
-	";
- ?>
+</body>
+</html>

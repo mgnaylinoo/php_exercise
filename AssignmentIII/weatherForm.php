@@ -17,16 +17,16 @@ table{
 		<table>
 			<tr bgcolor="pink">
 				<td><b>City</b></td>
-				<td><input type="text" name="city"></td>
+				<td><input type="text" name="city" value="Thaton"></td>
 			</tr>
 			<tr bgcolor="pink">
 				<td><b>Month</b>
 				</td>
-				<td><input type="text" name="month"></td>
+				<td><input type="text" name="month" value="January"></td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<input type="checkbox" name="weather[]" value="sunshine">Sunshine
+					<input type="checkbox" name="weather[]" value="sunshine" checked>Sunshine
 					<input type="checkbox" name="weather[]" value="clouds">Clouds
 					<input type="checkbox" name="weather[]" value="rain">Rain
 					<input type="checkbox" name="weather[]" value="hail">Hail
@@ -38,7 +38,7 @@ table{
 				</td>
 			</tr>
 			<tr bgcolor="pink">
-				<td rowspan="2">Today Date</td>
+				<td rowspan="2"><b>Today Date</b></td>
 				<?php 
 				echo "<td><input type='text' name='date' value='".date("d/m/Y")."'></td>";
 				?>

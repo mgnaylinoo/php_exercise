@@ -6,7 +6,7 @@ echo "Weather:";
 if(isset($_POST['weather'])){
 	$weather=$_POST['weather'];
 foreach($weather as $season){
-	 $weather_string.=$season.',';
+	 $weather_string.=ucfirst($season).',';
 }
 	$weather_string[strlen($weather_string)-1]='.';
 	echo $weather_string;
